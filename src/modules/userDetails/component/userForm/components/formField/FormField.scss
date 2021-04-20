@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.field {
+  margin:25px auto 0 auto;
+  width: 50%;
+  display: grid;
+  grid-template: 1fr / 20% 1fr;
+  &__icon {
+    display: grid;
+    align-self: center;
+    justify-self: center;
+  }
+  &__content {
+    display: grid;
+  }
+  &__data {
+    align-self: center;
+    justify-self: start;
+  }
+  &__name {
+    align-self: center;
+    justify-self: start;
+    color: gray;
+  }
+ i {
+  color : #1162B3;
+ }
+}

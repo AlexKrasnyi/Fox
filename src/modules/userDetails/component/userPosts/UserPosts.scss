@@ -1,0 +1,16 @@
+.userPost{
+  width: 60%;
+  margin: 0 auto;
+  padding: 5px;
+  min-height: 2rem;
+  display: grid;
+  grid-template: auto 1fr / 1fr;
+  border-bottom: 1px dotted grey;
+  &__title{
+    margin-bottom: 25px;
+    padding-top: 10px;
+  }
+  &__body{
+    text-align: left;
+  }
+}

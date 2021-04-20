@@ -1,0 +1,30 @@
+.header {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 50px;
+  display: grid;
+  grid-template: 1fr / 15% 1fr;
+  &__logo {
+    margin-top: 20px;
+  }
+  &__content{
+    display: grid;
+    grid-template: 1fr / 1fr auto;
+  }
+  &__title {
+    padding: 20px 10px;
+  }
+  &__list{
+    margin-right: 50px;
+    padding: 20px 10px;
+    display: grid;
+    grid-template: 1fr / repeat(3, auto);
+    justify-content: end;
+    column-gap: 10px;
+    list-style: none;
+    text-align: center;     
+  }
+  &__item{
+    border: none;
+  }
+}

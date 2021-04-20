@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+
+    padding: 10px;
+  a{
+    text-decoration: none;
+    // color: black;
+  }
+  ul {
+    margin-top: 10px;
+    list-style: none;
+  }
+}
